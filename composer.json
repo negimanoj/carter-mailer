@@ -19,7 +19,7 @@
      "extra": {
     "laravel": {
         "providers": [
-            "Carter\\Contact\\ContactServiceProvider"
+            "Carter\\Mailer\\MailerServiceProvider"
         ]
        
     }
