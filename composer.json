@@ -1,0 +1,27 @@
+{
+    "name": "carter/mailer",
+    "description": "this package is to send emails.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "carter",
+            "email": "mannu1993negi@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Carter\\Mailer\\": "src/"
+        }
+    },
+     "extra": {
+    "laravel": {
+        "providers": [
+            "Carter\\Contact\\ContactServiceProvider"
+        ]
+       
+    }
+}
+}
