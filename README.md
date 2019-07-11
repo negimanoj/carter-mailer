@@ -45,5 +45,5 @@ $to=array('yourmail@example.com'=>'YourName','secondmail@example.com'=>'SecondNa
 $subject="Subject of the email";
 $message="Body of your message" #you can also load the view in your message
 
-$message=Mailer::sendmail($to,$subject,$message);
+$result=Mailer::sendmail($to,$subject,$message);
 ```
