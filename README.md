@@ -5,7 +5,7 @@
 
 
 
-## This is package is to send email
+## This package is to send email
 
 ## How to Install
 
